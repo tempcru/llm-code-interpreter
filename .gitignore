@@ -1,0 +1,9 @@
+
+### Enviropment ###
+.env
+
+### Venv ###
+.venv
+
+### VS Code ###
+.vscode/

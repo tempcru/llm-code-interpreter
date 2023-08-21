@@ -1,2 +1,6 @@
-# llm-code-interpreter
-Code Interpreter PoC
+# llm-langchain-poc
+
+Langchain + streamlit Poc
+
+
+
