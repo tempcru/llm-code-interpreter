@@ -41,8 +41,7 @@ def init_chat():
         if "chatbot_api_key" not in st.session_state:  
             st.info("Please add your OpenAI API key to continue.")
             st.stop()
-
-        # openai.api_key = st.session_state["chatbot_api_key"]
+ 
         st.session_state.messages.append(ChatMessage(role="user", content=prompt)) 
         st.chat_message("user").write(prompt)
         
